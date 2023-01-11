@@ -196,7 +196,7 @@ const Home: React.FC<RouteComponentProps> = (props) => {
       {images.length !== 0 ?
         <IonFooter>
           <IonToolbar>
-            <IonButtons>
+            <IonButtons className='footer__pagination' >
               <IonButton
                 disabled={page === 1}
                 onClick={() => handlePrevPage()}
