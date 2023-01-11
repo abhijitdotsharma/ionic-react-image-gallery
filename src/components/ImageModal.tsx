@@ -55,10 +55,10 @@ export default function LoginModal(props: Props): JSX.Element{
           </IonButtons>
           <IonImg src={activeImageObj?.urls?.small}></IonImg>
 
-          <IonContent className="ion-padding">
+          <div className="modal-text" >
             <h3>{activeImageObj.user.name}</h3>
             <p>{activeImageObj.user.bio}</p>
-          </IonContent>
+          </div>
           {/* <div>Text here</div>
           <h3>more text here</h3> */}
         </IonCard>
